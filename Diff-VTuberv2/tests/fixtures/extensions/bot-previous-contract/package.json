@@ -1,0 +1,9 @@
+{
+  "name": "diff-vtuberv2-fixture-bot-previous-contract",
+  "version": "0.5.0",
+  "description": "按上一版契约写的 bot 包",
+  "type": "module",
+  "main": "./index.js",
+  "keywords": ["diff-vtuberv2-bot"],
+  "diffVTuberv2": { "kind": "bot", "api": 6 }
+}

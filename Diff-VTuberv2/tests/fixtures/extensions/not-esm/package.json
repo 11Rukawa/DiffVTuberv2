@@ -1,0 +1,8 @@
+{
+  "name": "diff-vtuberv2-fixture-not-esm",
+  "version": "1.0.0",
+  "description": "缺 type: module",
+  "main": "./index.js",
+  "keywords": ["diff-vtuberv2-world"],
+  "diffVTuberv2": { "kind": "world", "api": 6 }
+}

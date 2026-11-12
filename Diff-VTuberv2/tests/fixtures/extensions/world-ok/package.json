@@ -1,0 +1,9 @@
+{
+  "name": "diff-vtuberv2-fixture-world-ok",
+  "version": "1.2.3",
+  "description": "合格的 World 扩展",
+  "type": "module",
+  "main": "./index.js",
+  "keywords": ["diff-vtuberv2-world"],
+  "diffVTuberv2": { "kind": "world", "api": 6 }
+}

@@ -1,0 +1,69 @@
+# Dependencies, local settings and generated caches
+.claude/
+node_modules/
+__pycache__/
+.DS_Store
+.env
+.env.*
+!.env.example
+!.env.sample
+*.log
+*.tsbuildinfo
+
+# Diff-VTuberv2
+/Diff-VTuberv2/**/node_modules/
+/Diff-VTuberv2/**/__pycache__/
+/Diff-VTuberv2/**/.env
+/Diff-VTuberv2/**/*.log
+/Diff-VTuberv2/dist/
+/Diff-VTuberv2/**/.ua/
+/Diff-VTuberv2/**/.DS_Store
+/Diff-VTuberv2/deployments/
+/Diff-VTuberv2/bots/*/data/
+/Diff-VTuberv2/bots/*/workspace*/
+/Diff-VTuberv2/bots/*/avatar.png
+/Diff-VTuberv2/bots/*/voices/
+/Diff-VTuberv2/bots/*/config.json
+/Diff-VTuberv2/bots/*/config.json.bak-*
+/Diff-VTuberv2/**/deprecated/
+/Diff-VTuberv2/**/runtime/
+/Diff-VTuberv2/**/local-resources/
+/Diff-VTuberv2/**/Diff-VTuberv2-Resources/
+/Diff-VTuberv2/**/scratch/
+/Diff-VTuberv2/extensions/
+/Diff-VTuberv2/**/github-token.json
+/Diff-VTuberv2/**/CortiV-DataAnalysis/
+
+# Diff-VTuberv2/deployments/TestCortiBot/memory
+/Diff-VTuberv2/deployments/TestCortiBot/memory/**/*.tmp-*
+
+# Diff-VTuberv2/templates/extension/bot
+/Diff-VTuberv2/templates/extension/bot/**/node_modules/
+/Diff-VTuberv2/templates/extension/bot/**/dist/
+/Diff-VTuberv2/templates/extension/bot/**/*.log
+
+# Diff-VTuberv2/templates/extension/provider
+/Diff-VTuberv2/templates/extension/provider/**/node_modules/
+/Diff-VTuberv2/templates/extension/provider/**/dist/
+/Diff-VTuberv2/templates/extension/provider/**/*.log
+
+# Diff-VTuberv2/templates/extension/world
+/Diff-VTuberv2/templates/extension/world/**/node_modules/
+/Diff-VTuberv2/templates/extension/world/**/dist/
+/Diff-VTuberv2/templates/extension/world/**/*.log
+
+# Cortina
+/Cortina/**/node_modules/
+/Cortina/state/diff-vtuberv2/
+/Cortina/state/packages/
+
+# META-TINA/state/projects/diff-vtuberv2-extension-creator/workspace
+/META-TINA/state/projects/diff-vtuberv2-extension-creator/workspace/**/node_modules/
+/META-TINA/state/projects/diff-vtuberv2-extension-creator/workspace/state/diff-vtuberv2/
+/META-TINA/state/projects/diff-vtuberv2-extension-creator/workspace/state/packages/
+
+# diff-vtuberv2-world-vtuber
+/diff-vtuberv2-world-vtuber/**/node_modules/
+/diff-vtuberv2-world-vtuber/**/dist/
+/diff-vtuberv2-world-vtuber/src/voxcpm2-server/
+/diff-vtuberv2-world-vtuber/**/scratch/

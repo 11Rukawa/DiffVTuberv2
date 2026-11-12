@@ -1,0 +1,9 @@
+{
+  "name": "diff-vtuberv2-fixture-provider-previous-contract",
+  "version": "0.5.0",
+  "description": "按上一版契约写的 provider 扩展",
+  "type": "module",
+  "main": "./index.js",
+  "keywords": ["diff-vtuberv2-provider"],
+  "diffVTuberv2": { "kind": "provider", "api": 5 }
+}

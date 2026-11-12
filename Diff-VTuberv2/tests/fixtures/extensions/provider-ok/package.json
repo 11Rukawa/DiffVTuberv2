@@ -1,0 +1,9 @@
+{
+  "name": "diff-vtuberv2-fixture-provider-ok",
+  "version": "2.0.0",
+  "description": "合格的 provider 扩展",
+  "type": "module",
+  "main": "./index.js",
+  "keywords": ["diff-vtuberv2-provider"],
+  "diffVTuberv2": { "kind": "provider", "api": 6 }
+}

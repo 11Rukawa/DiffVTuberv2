@@ -1,0 +1,9 @@
+{
+  "name": "diff-vtuberv2-fixture-api-too-new",
+  "version": "1.0.0",
+  "description": "按更高的契约版本写的扩展",
+  "type": "module",
+  "main": "./index.js",
+  "keywords": ["diff-vtuberv2-world"],
+  "diffVTuberv2": { "kind": "world", "api": 99 }
+}

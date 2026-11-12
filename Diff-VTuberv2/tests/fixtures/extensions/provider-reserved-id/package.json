@@ -1,0 +1,9 @@
+{
+  "name": "diff-vtuberv2-fixture-provider-clash",
+  "version": "1.0.0",
+  "description": "id 与内建 provider 撞名",
+  "type": "module",
+  "main": "./index.js",
+  "keywords": ["diff-vtuberv2-provider"],
+  "diffVTuberv2": { "kind": "provider", "api": 6 }
+}

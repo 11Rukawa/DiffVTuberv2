@@ -1,0 +1,9 @@
+{
+  "name": "diff-vtuberv2-fixture-world-webui-missing",
+  "version": "1.0.0",
+  "description": "声明了浏览器端产物但没 build",
+  "type": "module",
+  "main": "./index.js",
+  "keywords": ["diff-vtuberv2-world"],
+  "diffVTuberv2": { "kind": "world", "api": 6, "webUiClient": "dist/webui.js" }
+}

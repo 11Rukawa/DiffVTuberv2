@@ -1,0 +1,9 @@
+{
+  "name": "diff-vtuberv2-fixture-provider-webui",
+  "version": "0.4.2",
+  "description": "带浏览器端产物的 provider 扩展",
+  "type": "module",
+  "main": "./index.js",
+  "keywords": ["diff-vtuberv2-provider"],
+  "diffVTuberv2": { "kind": "provider", "api": 6, "webUiClient": "dist/panel.js" }
+}

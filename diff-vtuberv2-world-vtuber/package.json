@@ -1,0 +1,59 @@
+{
+  "name": "diff-vtuberv2-world-vtuber",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Diff-VTuberv2 World: Live2D VTuber performance — VTube Studio wiring, streaming TTS, forced alignment, subtitle overlay",
+  "keywords": [
+    "diff-vtuberv2-world",
+    "diff-vtuberv2",
+    "vtuber",
+    "live2d",
+    "vtube-studio",
+    "tts"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@11.5.0",
+  "main": "./src/index.ts",
+  "diffVTuberv2": {
+    "kind": "world",
+    "api": 6,
+    "webUiClient": "dist/console.js",
+    "webUiStyle": "dist/console.css"
+  },
+  "files": [
+    "src",
+    "!src/voxcpm2-server",
+    "dist",
+    "scripts",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "node scripts/build-console.mjs",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "audify": "^1.10.1",
+    "fflate": "^0.8.3",
+    "tar-stream": "^3.2.1",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/tar-stream": "^3.1.4",
+    "@types/ws": "^8.5.13",
+    "diff-vtuberv2": "link:../Diff-VTuberv2",
+    "esbuild": "^0.28.2",
+    "jsdom": "^30.0.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/11Rukawa/DiffVTuberv2.git",
+    "directory": "diff-vtuberv2-world-vtuber"
+  }
+}

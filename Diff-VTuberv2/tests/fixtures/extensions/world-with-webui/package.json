@@ -1,0 +1,14 @@
+{
+  "name": "diff-vtuberv2-fixture-world-webui",
+  "version": "3.1.0",
+  "description": "带浏览器端产物的 World 扩展",
+  "type": "module",
+  "main": "./index.js",
+  "keywords": ["diff-vtuberv2-world"],
+  "diffVTuberv2": {
+    "kind": "world",
+    "api": 6,
+    "webUiClient": "dist/webui.js",
+    "webUiStyle": "dist/webui.css"
+  }
+}

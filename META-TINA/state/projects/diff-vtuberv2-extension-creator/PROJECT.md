@@ -1,0 +1,10 @@
+# diff-vtuberv2-extension-creator
+- Archetype: primary builder(secondary mentor)
+- Current phase: test drive 暂停(专家 0912:其余等与 Diff-VTuberv2 一起开源后按反馈迭代);workspace/ 已清场,未发布
+- Next step: 开源时再定:补一趟完整试驾,或按 I6 记录绕过 M4 后发布(版本 1.0.0、独立 git、导出)
+- Last updated: 2026-09-12
+- Notes:
+  - 装配检查单(0912):front matter 五字段 OK;协议不变量逐字拷自 app/spec,diff 一致(36 行);描述、目录、应用不变量、完成判据、能力声明、首次运行、语气、存档策略都在;CLAUDE.md / GEMINI.md 各一行指针;三份 README 分别 22 / 9 / 11 行;AGENTS.md 170 行;state 区骨架齐;PENDING 标签两处已由专家确认并清掉(0912)。workspace/ 未 git init(按 4-assembly 第 8 步)。
+  - extraction 六类:决策点、变化轴、坑、质量判据、环境都有;诊断顺序一类按「只写 agent 常识定不了的」规则不另写,扩展页卡片原因与 docs/runs.md 的 logq 已覆盖(待专家在起草评审时确认)。
+  - 发布形式已在面谈前定下:独立仓库,Creator 在自己工作区内 clone Diff-VTuberv2 作为构建期依赖(gitignored,钉 commit);网络只用于 clone 与 pnpm install。
+  - 流程偏离(专家要求,仅本项目):准入第 7 问与知识抽取合并,按 3 × N 走——三种 kind 各一条线,每条线按专家给的切面分小节,World 先做。理由:一次问一整套对专家太散,按 kind 与切面逐个来更自然。

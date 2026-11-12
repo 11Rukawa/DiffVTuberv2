@@ -1,0 +1,7 @@
+{
+  "name": "diff-vtuberv2-fixture-no-manifest",
+  "version": "1.0.0",
+  "description": "package.json 里没有 diff-vtuberv2 块",
+  "type": "module",
+  "main": "./index.js"
+}
